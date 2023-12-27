@@ -3,8 +3,8 @@ import React from "react";
 const TechRainbow = ({ className }: { className?: string }) => {
   return (
     <svg
-      width="734"
-      height="735"
+      width="634"
+      height="635"
       viewBox="0 0 234 235"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

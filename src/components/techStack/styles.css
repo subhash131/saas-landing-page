@@ -1,7 +1,7 @@
 .rotate {
-  animation: anime linear 35s infinite;
+  animation: spin linear 40s infinite;
 }
-@keyframes anime {
+@keyframes spin {
   100% {
     transform: rotate(360deg);
   }

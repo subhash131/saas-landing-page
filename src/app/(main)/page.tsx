@@ -1,5 +1,6 @@
-import Hero from "@/components/hero";
+import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar";
+import Pricing from "@/components/pricing/Pricing";
 import TechStack from "@/components/techStack/TechStack";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <TechStack />
+      <Pricing />
     </div>
   );
 }
