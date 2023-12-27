@@ -1,0 +1,8 @@
+.rotate {
+  animation: anime linear 35s infinite;
+}
+@keyframes anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
