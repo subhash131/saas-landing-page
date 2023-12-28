@@ -51,11 +51,11 @@
 
 .scroller[data-animated="true"] .scroller_list {
   flex-wrap: nowrap;
-  animation: scroll 80s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 @keyframes scroll {
   to {
-    transform: translate(50%);
+    transform: translate(38%);
   }
 }

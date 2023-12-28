@@ -37,7 +37,7 @@ const Testimonial = () => {
           Discover what our customers have to say about us.
         </p>
       </div>
-      <div className="scroller flex items-center justify-center  max-w-[95%] h-[400px] overflow-hidden">
+      <div className="scroller flex items-center justify-center  max-w-full h-[400px] overflow-hidden">
         <div className="scroller_list w-auto flex gap-10 justify-center items-center text-xs [&>*:nth-child(odd)]:rotate-3 [&>*:nth-child(even)]:-rotate-3 ">
           {TESTIMONIAL_DETAILS.map(
             ({ title, image, description, age, name }, index) => {
