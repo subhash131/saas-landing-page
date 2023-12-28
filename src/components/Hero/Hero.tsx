@@ -2,7 +2,6 @@ import React from "react";
 import Card1 from "./cards/Card1";
 import Card2 from "./cards/Card2";
 import Card3 from "./cards/Card3";
-import "./cards/styles.css";
 
 const Hero = () => {
   return (

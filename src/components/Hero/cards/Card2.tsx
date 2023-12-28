@@ -3,6 +3,7 @@ import Javascript from "@/components/icons/Javascript";
 import Swift from "@/components/icons/Swift";
 import VsCode from "@/components/icons/VsCode";
 import Aws from "@/components/icons/Aws";
+import Thunder from "@/components/icons/Thunder";
 
 const Card2 = () => {
   return (
@@ -10,10 +11,11 @@ const Card2 = () => {
       <div className="w-[22rem] h-[22rem] rounded-full border border-[#201F33] absolute" />
       <div className="w-60 h-60 rounded-full border border-[#201F33] absolute" />
       <div className="w-28 h-28 glow shadow-[#1D1E34] bg-[#201848 bg-gradient-to-b from-[#11111D] to-[#201848] rounded-full border border-[#201F33] absolute grid place-content-center">
-        <img
+        {/* <img
           src="./assets/icons8-lightning-96.png"
           className="w-12 h-12 rotate-12"
-        />
+        /> */}
+        <Thunder className="w-16 h-16" />
       </div>
       <div className="absolute top-12 left-16 w-14 h-14 rounded-full border border-[#2B294B] bg-[#121420] grid place-content-center icon_gradient_background">
         <Javascript />

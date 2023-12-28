@@ -7,3 +7,55 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+.icon_gradient_background {
+  background-image: linear-gradient(#121420, #2b294b);
+}
+
+.glow {
+  box-shadow: #353757 0 0 90px 33px;
+}
+
+.extra_glow {
+  box-shadow: #353757 0 0 120px 73px;
+}
+.gradient_background {
+  background-image: linear-gradient(to left, #121420, #2b294b);
+}
+
+/* Testimonial infinite scroll */
+.scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller_list {
+}
+
+.scroller[data-animated="true"] {
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+}
+.scroller[data-animated="false"] .scroller_list {
+  flex-wrap: wrap;
+}
+
+.scroller[data-animated="true"] .scroller_list {
+  flex-wrap: nowrap;
+  animation: scroll 80s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(100%);
+  }
+}

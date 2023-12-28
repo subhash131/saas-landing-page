@@ -22,26 +22,9 @@ const ItemData = [
   },
 ];
 
-const Item = ({ icon, title, date, price }: (typeof ItemData)[0]) => {
-  return (
-    <div className="flex w-60 h-14 justify-between z-10 bg-[#171927] p-4 rounded-3xl items-center gap-4 border border-[#46445d]">
-      <div className="flex items-center gap-4">
-        <div className="bg-[#1A1927] p-2 grid place-content-center rounded-full icon_gradient_background">
-          {icon}
-        </div>
-        <div className="text-[0.7rem] text-left ">
-          <p>{title}</p>
-          <p className="text-[0.5rem]">{date}</p>
-        </div>
-      </div>
-      <p className="text-sm">{price}</p>
-    </div>
-  );
-};
-
 const Card1 = () => {
   return (
-    <div className="flex-col gap-2 w-80 h-80 bg-[#10121C] rounded-2xl relative flex items-center justify-center">
+    <div className="overflow-hidden flex-col gap-2 w-80 h-80 bg-[#10121C] rounded-2xl relative flex items-center justify-center">
       <div className="-mt-8 absolute bg-[#1B1336] w-[80%] h-[50%] z-0 rounded-2xl border border-gray-600 grid place-content-center">
         <div className="extra_glow w-1 h-1 bg-transparent rounded-full glow"></div>
       </div>
@@ -68,3 +51,20 @@ const Card1 = () => {
 };
 
 export default Card1;
+
+const Item = ({ icon, title, date, price }: (typeof ItemData)[0]) => {
+  return (
+    <div className=" flex w-60 h-14 justify-between z-10 bg-[#171927] p-4 rounded-3xl items-center gap-4 border border-[#46445d]">
+      <div className="flex items-center gap-4">
+        <div className="bg-[#1A1927] p-2 grid place-content-center rounded-full icon_gradient_background">
+          {icon}
+        </div>
+        <div className="text-[0.7rem] text-left ">
+          <p>{title}</p>
+          <p className="text-[0.5rem]">{date}</p>
+        </div>
+      </div>
+      <p className="text-sm">{price}</p>
+    </div>
+  );
+};

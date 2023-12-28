@@ -4,10 +4,9 @@ import React from "react";
 const Card = () => {
   return (
     <div
-      className={`w-[18rem] h-[22rem] transition-all border-[#1C1541] bg-[#161925] p-6 rounded-3xl relative flex items-center justify-center`}
+      className={`w-[288px] h-[22rem] transition-all border-[#1C1541] bg-[#161925] p-6 rounded-3xl relative flex items-center justify-center`}
     >
-      <div className="absolute w-1 h-1 glow bg-transparent z-0"></div>
-      {/* <div className="absolute w-1 h-1 glow bg-transparent bottom-0 right-4"></div> */}
+      <div className="absolute w-[1px] h-[1px] glow bg-[#353757] rounded-full z-0"></div>
       <div className="w-full h-full flex flex-col gap-8 z-10">
         <p className="text-sm">CEO CORPS, USA</p>
         <p className="text-xs text-gray-300">
