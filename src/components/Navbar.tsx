@@ -1,5 +1,4 @@
 "use client";
-import { IceCream2 } from "lucide-react";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -11,10 +10,7 @@ const Navbar = () => {
   ]);
   return (
     <div className="z-50 text-sm w-full h-fit sticky top-0 backdrop-blur items-center flex justify-between p-4 px-6 bg-transparent text-white">
-      <div className="flex  gap-2">
-        <IceCream2 strokeWidth={1.5} className="h-5" />
-        Logo
-      </div>
+      <div className="flex  gap-2">Subhash</div>
       <ul className="flex gap-10 ">
         {navItems.map((item, index) => (
           <li className="" key={`${index}:item`}>

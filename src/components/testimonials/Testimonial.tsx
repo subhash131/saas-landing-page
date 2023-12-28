@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Card from "./Card";
+import TESTIMONIAL_DETAILS from "./constant";
 
 const Testimonial = () => {
   useEffect(() => {
@@ -8,7 +9,6 @@ const Testimonial = () => {
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       addAnimation();
     }
-
     function addAnimation() {
       scrollers.forEach((scroller) => {
         scroller.setAttribute("data-animated", "true");
@@ -39,11 +39,20 @@ const Testimonial = () => {
       </div>
       <div className="scroller flex items-center justify-center  max-w-[95%] h-[400px] overflow-hidden">
         <div className="scroller_list w-auto flex gap-10 justify-center items-center text-xs [&>*:nth-child(odd)]:rotate-3 [&>*:nth-child(even)]:-rotate-3 ">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {TESTIMONIAL_DETAILS.map(
+            ({ title, image, description, age, name }, index) => {
+              return (
+                <Card
+                  key={`${index}:${title}`}
+                  title={title}
+                  image={image}
+                  description={description}
+                  age={age}
+                  name={name}
+                />
+              );
+            }
+          )}
         </div>
       </div>
     </div>
