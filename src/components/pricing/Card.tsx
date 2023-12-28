@@ -1,10 +1,4 @@
-import {
-  ArrowBigRight,
-  ArrowRight,
-  Check,
-  CheckCheck,
-  CheckCircle,
-} from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import React from "react";
 
 const Card = ({
@@ -27,9 +21,9 @@ const Card = ({
   return (
     <div
       onClick={onClick}
-      className={`w-[18rem] h-[26rem] transition-all ${
+      className={`w-[18rem] h-[26rem] transition-all border-[#1C1541] ${
         selected
-          ? "from-[#12121E] to-[#1C1541] bg-gradient-to-b border-[#1C1541] border-2 scale-105"
+          ? "from-[#12121E] to-[#1C1541] bg-gradient-to-b  border-2 scale-105"
           : "bg-[#161925]"
       } p-2 rounded-3xl`}
     >

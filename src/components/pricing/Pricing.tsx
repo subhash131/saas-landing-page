@@ -1,104 +1,17 @@
 "use client";
 import React, { useState } from "react";
 import Card from "./Card";
-
-const planData = {
-  monthly: [
-    {
-      title: "Free Member",
-      price: "$0 /month",
-      subTitle: "Life-time free",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: ["1 Project", "Analytics"],
-    },
-    {
-      title: "Super Charger",
-      price: "$49 /month",
-      subTitle: "Additional features",
-      description: "Advanced features and premium support for users.",
-      features: ["2 Project", "Analytics", "Insights panel", "Share Features"],
-    },
-    {
-      title: "Enterprise",
-      price: "$128 /month",
-      subTitle: "Advanced features",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: [
-        "Unlimited Project",
-        "Detailed Analytics",
-        "Insights panel",
-        "Share Features",
-      ],
-    },
-  ],
-  yearly: [
-    {
-      title: "Free Member",
-      price: "$0 /year",
-      subTitle: "Life-time free",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: ["1 Project", "Analytics"],
-    },
-    {
-      title: "Super Charger",
-      price: "$419 /year",
-      subTitle: "Additional features",
-      description: "Advanced features and premium support for users.",
-      features: ["2 Project", "Analytics", "Insights panel", "Share Features"],
-    },
-    {
-      title: "Enterprice",
-      price: "$1218 /year",
-      subTitle: "Advanced features",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: [
-        "Unlimited Project",
-        "Detailed Analytics",
-        "Insights panel",
-        "Share Features",
-      ],
-    },
-  ],
-  quartly: [
-    {
-      title: "Free Member",
-      price: "$0 /quarter",
-      subTitle: "Life-time free",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: ["1 Project", "Analytics"],
-    },
-    {
-      title: "Super Charger",
-      price: "$219 /quarter",
-      subTitle: "Additional features",
-      description: "Advanced features and premium support for users.",
-      features: ["2 Project", "Analytics", "Insights panel", "Share Features"],
-    },
-    {
-      title: "Enterprice",
-      price: "$618 /quarter",
-      subTitle: "Advanced features",
-      description: "Basic features with no cost, perfect for getting started.",
-      features: [
-        "Unlimited Project",
-        "Detailed Analytics",
-        "Insights panel",
-        "Share Features",
-      ],
-    },
-  ],
-};
+import PLANDETAILS from "./constants";
 
 const Pricing = () => {
-  const [plans, setPlans] = useState<typeof planData>(planData);
   const [selectedDuration, setSelectedDuration] = useState("monthly");
-  const [selectedCard, setSelectedCard] = useState(0);
+  const [selectedCard, setSelectedCard] = useState(1);
   return (
     <div className="w-full h-full flex justify-center mt-10 flex-col gap-10 pb-10">
       <div className="w-full text-center flex flex-col gap-4">
-        <p className="text-5xl font-light">
+        <h1 className="text-5xl font-light">
           Affordable pricing <span className="text-[#897DD3]">solution</span>
-        </p>
+        </h1>
         <p className="font-extralight text-gray-400">
           Find cost-effective pricing plans designed to meet
           <br />
@@ -158,7 +71,7 @@ const Pricing = () => {
       <div className="flex gap-10 justify-center items-center">
         {selectedDuration === "monthly" && (
           <>
-            {planData.monthly.map(
+            {PLANDETAILS.monthly.map(
               ({ title, subTitle, description, features, price }, index) => {
                 return (
                   <Card
@@ -180,7 +93,7 @@ const Pricing = () => {
         )}
         {selectedDuration === "quarterly" && (
           <>
-            {planData.quartly.map(
+            {PLANDETAILS.quartly.map(
               ({ title, subTitle, description, features, price }, index) => {
                 return (
                   <Card
@@ -202,7 +115,7 @@ const Pricing = () => {
         )}
         {selectedDuration === "yearly" && (
           <>
-            {planData.yearly.map(
+            {PLANDETAILS.yearly.map(
               ({ title, subTitle, description, features, price }, index) => {
                 return (
                   <Card

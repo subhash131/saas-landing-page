@@ -1,7 +1,8 @@
-import Hero from "@/components/Hero/Hero";
+import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/Navbar";
 import Pricing from "@/components/pricing/Pricing";
 import TechStack from "@/components/techStack/TechStack";
+import Testimonial from "@/components/testimonials/Testimonial";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <TechStack />
       <Pricing />
+      <Testimonial />
     </div>
   );
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import Card1 from "./cards/Card1";
 import Card2 from "./cards/Card2";
-import "./cards/styles.css";
 import Card3 from "./cards/Card3";
+import "./cards/styles.css";
 
 const Hero = () => {
   return (
     <div className="w-full text-center pt-16">
-      <p className="text-5xl tracking-wider ">
+      <h1 className="text-5xl tracking-wider ">
         <span className="from-[#2D0D61] bg-gradient-to-r px-4 rounded-full">
           Revolutionize
         </span>
@@ -19,7 +19,7 @@ const Hero = () => {
             products
           </span>
         </span>
-      </p>
+      </h1>
       <p className="text-xs text-gray-400 mt-14">
         Create stunning, professional-quality websites in record tine with our
         powerful UI kit
