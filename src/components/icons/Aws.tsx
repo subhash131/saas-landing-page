@@ -3,7 +3,7 @@ import React from "react";
 const Aws = () => {
   return (
     <svg
-      enable-background="new 0 0 1024 1024"
+      enableBackground="new 0 0 1024 1024"
       viewBox="0 0 1024 1024"
       xmlns="http://www.w3.org/2000/svg"
       width="40"

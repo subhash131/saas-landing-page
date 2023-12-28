@@ -36,7 +36,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           fill="url(#paint0_linear_19_277)"
           stroke="#2B294B"
         />
-        <g clip-path="url(#clip0_19_277)">
+        <g clipPath="url(#clip0_19_277)">
           <path
             d="M44.7379 52.2467C44.7281 53.1089 44.0234 53.7978 43.1612 53.788C42.2991 53.7782 41.6102 53.0734 41.62 52.2113C41.6298 51.3491 42.3345 50.6603 43.1966 50.6701L44.7556 50.6878L44.7379 52.2467ZM45.5174 52.2556C45.5272 51.3934 46.2319 50.7046 47.094 50.7144C47.9562 50.7242 48.6451 51.4289 48.6353 52.291L48.591 56.1884C48.5812 57.0506 47.8764 57.7395 47.0143 57.7297C46.1521 57.7199 45.4633 57.0151 45.4731 56.153L45.5174 52.2556Z"
             fill="#E01E5A"
@@ -82,7 +82,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           fill="url(#paint2_linear_19_277)"
           stroke="#2B294B"
         />
-        <g clip-path="url(#clip1_19_277)">
+        <g clipPath="url(#clip1_19_277)">
           <path
             d="M193.785 46.211C193.412 45.906 193.004 45.6372 192.577 45.4108C192.155 45.1856 191.707 45 191.249 44.8595C190.79 44.719 190.316 44.6221 189.839 44.5716C189.358 44.5196 188.871 44.5157 188.39 44.5574C187.9 44.6019 187.411 44.6936 186.94 44.8326C186.457 44.9747 185.983 45.167 185.535 45.4052C185.085 45.6437 184.661 45.9279 184.272 46.249C183.892 46.5617 183.543 46.9148 183.232 47.2956C182.928 47.6705 182.658 48.0765 182.431 48.5044C182.206 48.9272 182.021 49.3742 181.88 49.8332C181.74 50.2913 181.644 50.7658 181.593 51.2421C181.541 51.7223 181.536 52.2103 181.579 52.6908C181.622 53.1813 181.715 53.6703 181.853 54.1422C181.995 54.6244 182.188 55.0969 182.427 55.5458C182.665 55.9959 182.949 56.4208 183.269 56.8094C183.582 57.1887 183.935 57.5384 184.317 57.848C184.69 58.1524 185.098 58.4234 185.525 58.6498C185.948 58.8746 186.394 59.0593 186.853 59.2011C187.312 59.3407 187.786 59.4369 188.262 59.4886C188.743 59.5395 189.231 59.544 189.712 59.5014C190.202 59.4589 190.69 59.3658 191.161 59.2266C191.646 59.0852 192.118 58.8922 192.568 58.6536C193.016 58.4154 193.441 58.132 193.829 57.8102C194.209 57.4977 194.559 57.146 194.87 56.7632C195.174 56.3894 195.443 55.9828 195.67 55.5557C195.895 55.1319 196.081 54.6854 196.222 54.2274C196.361 53.7679 196.46 53.2944 196.51 52.8186C196.561 52.3384 196.566 51.8481 196.523 51.3682C196.48 50.8785 196.388 50.3902 196.25 49.9185C196.107 49.4357 195.914 48.9628 195.675 48.5126C195.437 48.0637 195.153 47.6393 194.834 47.2513C194.52 46.8722 194.167 46.5219 193.785 46.211ZM186.048 46.3727C187.48 45.6127 189.071 45.4528 190.534 45.8013C190.531 45.8299 190.377 47.4839 188.665 49.4181C186.755 48.1546 184.943 47.3074 184.799 47.2397C185.171 46.91 185.588 46.6167 186.048 46.3727ZM184.78 47.2564C184.78 47.2572 184.779 47.2586 184.779 47.2586C184.779 47.2586 184.774 47.2639 184.764 47.2711C184.77 47.2659 184.775 47.2623 184.78 47.2564ZM183.921 48.1954C184.05 48.2559 185.849 49.1189 187.753 50.3392C185.419 52.5033 183.046 53.7263 182.896 53.8027C182.332 51.8556 182.738 49.7782 183.921 48.1954ZM186.85 58.0439C185.416 57.5197 184.164 56.4862 183.393 55.033C183.361 54.9727 183.333 54.9119 183.303 54.8519C183.405 54.8008 186.233 53.3803 188.683 50.9623C189.014 51.1935 189.34 51.4342 189.653 51.6809C189.589 51.7405 189.527 51.8023 189.466 51.8668C186.937 54.4735 186.846 58.0421 186.846 58.0421L186.85 58.0439ZM192.054 57.6872C190.719 58.3964 189.245 58.5839 187.864 58.3229C187.911 58.3311 187.941 58.3353 187.941 58.3353C187.941 58.3353 187.77 55.3948 190.505 52.4444C190.515 52.4335 190.526 52.423 190.537 52.4125C192.43 54.058 193.678 55.6164 194.025 56.0658C193.499 56.715 192.837 57.2715 192.054 57.6872ZM194.703 55.0434C194.464 54.7327 193.281 53.232 191.457 51.5878C193.128 50.326 194.976 49.9869 195.114 49.9632C195.699 51.6728 195.517 53.5117 194.703 55.0434ZM190.639 50.877C190.546 50.8021 190.455 50.7258 190.361 50.6509C190.097 50.4361 189.824 50.229 189.549 50.0294C191.299 47.9315 191.51 46.1386 191.513 46.1178C192.817 46.6599 193.951 47.6357 194.677 48.9709C194.586 48.9963 192.452 49.6003 190.639 50.877Z"
             fill="#F26B95"
@@ -164,7 +164,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12.5"
           transform="rotate(91.0869 211.19 112.979)"
           fill="url(#paint3_linear_19_277)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
         <circle
           cx="211.19"
@@ -172,17 +172,17 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12"
           transform="rotate(91.0869 211.19 112.979)"
           stroke="#2B294B"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip2_19_277)">
+      <g clipPath="url(#clip2_19_277)">
         <path
           d="M217.237 107.375L217.632 114.577C217.691 115.462 217.635 115.688 217.221 116.236L215.56 118.501C215.275 118.874 215.197 118.999 214.894 118.993L206.024 118.825C205.468 118.814 205.143 118.606 205.106 117.899L204.759 109.537C204.744 109.006 204.824 108.755 205.183 108.484L207.414 106.835C207.824 106.54 208.129 106.42 208.484 106.427L216.368 106.576C216.822 106.585 217.198 106.794 217.237 107.375Z"
           fill="white"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M217.632 114.577L217.237 107.375C217.198 106.794 216.822 106.585 216.368 106.576L208.484 106.427C208.13 106.42 207.824 106.54 207.414 106.835L205.184 108.484C204.824 108.755 204.744 109.006 204.759 109.537L205.106 117.899C205.143 118.606 205.468 118.814 206.024 118.825L214.894 118.993C215.181 118.999 215.266 118.887 215.517 118.557L217.221 116.236C217.635 115.688 217.691 115.462 217.632 114.577L217.632 114.577ZM215.211 109.924C215.178 109.242 215.17 109.087 215.493 108.705L216.295 107.735C216.398 107.637 216.523 107.69 216.544 107.943L216.918 114.866C216.958 115.448 216.75 115.746 216.568 115.97L215.687 117.139C215.66 117.189 215.507 117.313 215.51 117.161L215.215 110.013L215.211 109.924ZM206.287 108.96L213.817 109.103C214.145 109.109 214.295 109.213 214.315 109.515L214.639 117.725C214.659 118.004 214.48 118.126 214.152 118.12L206.672 117.978C206.343 117.972 206.066 117.916 206.049 117.461L205.743 109.605C205.727 109.151 205.882 108.952 206.287 108.96L206.287 108.96ZM213.266 116.842C213.037 116.887 212.811 116.833 212.789 116.605L212.721 116.225L207.162 116.12C206.991 115.788 206.896 115.484 206.901 115.231C206.909 114.827 207.037 114.729 207.421 114.434L211.36 112.034L207.595 111.962L207.403 112.742C207.403 112.742 206.948 112.733 206.96 112.102L206.892 110.359C206.994 110.311 207.246 110.366 207.293 110.543L207.41 111L212.388 111.095L212.451 110.465C212.68 110.419 213.006 110.551 213.025 110.905L213.115 112.775L209.124 115.273L212.612 115.34L212.699 114.685C212.979 114.64 213.177 114.845 213.197 115.098L213.266 116.842Z"
           fill="black"
         />
@@ -194,7 +194,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12.5"
           transform="rotate(129.256 189.329 174.027)"
           fill="url(#paint4_linear_19_277)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
         <circle
           cx="189.329"
@@ -202,7 +202,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12"
           transform="rotate(129.256 189.329 174.027)"
           stroke="#2B294B"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <rect
@@ -220,7 +220,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12.5"
           transform="rotate(0.651242 24.1911 113.403)"
           fill="url(#paint5_linear_19_277)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
         <circle
           cx="24.1911"
@@ -228,10 +228,10 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12"
           transform="rotate(0.651242 24.1911 113.403)"
           stroke="#2B294B"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip3_19_277)" filter="url(#filter7_d_19_277)">
+      <g clipPath="url(#clip3_19_277)" filter="url(#filter7_d_19_277)">
         <path
           d="M29.1641 110.312C28.9851 110.248 28.8047 110.189 28.623 110.134C28.6546 110.011 28.6839 109.888 28.7108 109.764C29.1449 107.768 28.8943 106.154 27.9824 105.613C27.1094 105.094 25.662 105.608 24.1936 106.86C24.0493 106.983 23.9078 107.11 23.7692 107.241C23.6788 107.152 23.586 107.065 23.4909 106.98C21.9824 105.606 20.4614 105.017 19.5385 105.539C18.6539 106.039 18.3755 107.551 18.7241 109.451C18.759 109.639 18.7985 109.826 18.8425 110.013C18.6256 110.072 18.4161 110.135 18.2156 110.202C16.4241 110.806 15.2719 111.771 15.2604 112.786C15.2484 113.834 16.4613 114.899 18.3147 115.558C18.4651 115.611 18.6168 115.66 18.7701 115.706C18.7179 115.904 18.6714 116.105 18.6307 116.308C18.258 118.167 18.5154 119.649 19.3867 120.166C20.2867 120.7 21.8125 120.179 23.3086 118.899C23.427 118.798 23.5454 118.691 23.6639 118.578C23.8103 118.723 23.9611 118.863 24.1161 119C25.5363 120.253 26.947 120.769 27.8285 120.27C28.7397 119.755 29.052 118.17 28.6918 116.232C28.6642 116.084 28.6322 115.933 28.5957 115.779C28.7029 115.749 28.808 115.717 28.9108 115.685C30.8515 115.064 32.1229 114.04 32.135 112.979C32.1458 111.959 30.9794 110.961 29.1641 110.312ZM24.6617 107.41C25.9195 106.337 27.0887 105.922 27.616 106.234C28.1773 106.567 28.382 107.887 28.0073 109.61C27.9826 109.722 27.956 109.834 27.9276 109.945C27.1862 109.768 26.4338 109.64 25.6754 109.562C25.2479 108.931 24.7782 108.33 24.2695 107.762C24.397 107.641 24.5275 107.524 24.661 107.41L24.6617 107.41ZM20.2329 113.709C20.3821 114.006 20.5383 114.3 20.7014 114.59C20.8675 114.886 21.0408 115.177 21.2213 115.465C20.6996 115.402 20.1814 115.312 19.6689 115.196C19.8234 114.716 20.0126 114.217 20.2329 113.709ZM20.2522 112.01C20.0469 111.509 19.8739 111.016 19.7327 110.541C20.2156 110.438 20.7298 110.356 21.2656 110.295C21.0831 110.573 20.9074 110.855 20.7385 111.141C20.5695 111.427 20.4071 111.717 20.2511 112.01L20.2522 112.01ZM20.6257 112.864C20.8531 112.404 21.0976 111.952 21.359 111.509C21.6203 111.067 21.8979 110.635 22.1919 110.213C22.6943 110.181 23.2092 110.167 23.7292 110.173C24.2491 110.179 24.7667 110.205 25.2679 110.249C25.5492 110.676 25.8153 111.113 26.0662 111.559C26.3171 112.005 26.5544 112.46 26.7781 112.924C26.5469 113.386 26.2999 113.84 26.037 114.285C25.7762 114.727 25.5018 115.16 25.2136 115.584C24.7122 115.614 24.1935 115.627 23.6662 115.621C23.1389 115.615 22.6304 115.593 22.1389 115.555C21.8525 115.126 21.5825 114.686 21.3291 114.235C21.0757 113.785 20.8409 113.328 20.6247 112.864L20.6257 112.864ZM26.6569 114.653C26.8301 114.36 26.9966 114.063 27.1564 113.762C27.3652 114.25 27.5487 114.749 27.7062 115.256C27.185 115.367 26.6584 115.451 26.1286 115.507C26.3104 115.226 26.4865 114.941 26.6569 114.653ZM27.1684 112.089C27.0161 111.791 26.8576 111.496 26.6929 111.205C26.5321 110.918 26.3643 110.634 26.1896 110.353C26.727 110.428 27.2424 110.524 27.7252 110.641C27.564 111.133 27.3781 111.616 27.1684 112.089ZM23.7578 108.273C24.1045 108.66 24.4314 109.065 24.7372 109.486C24.0732 109.447 23.4083 109.439 22.7426 109.463C23.0755 109.033 23.4158 108.634 23.7578 108.273ZM19.8942 106.168C20.4625 105.847 21.7055 106.329 23.008 107.514C23.0912 107.59 23.175 107.669 23.2585 107.751C22.7344 108.307 22.2478 108.897 21.8018 109.517C21.0436 109.577 20.29 109.686 19.5459 109.843C19.5049 109.67 19.4683 109.496 19.4358 109.321C19.1361 107.692 19.3606 106.47 19.8942 106.168ZM18.9706 115.012C18.8305 114.97 18.6921 114.925 18.5556 114.877C17.7361 114.586 17.0608 114.212 16.5988 113.807C16.1853 113.444 15.9777 113.084 15.981 112.794C15.988 112.179 16.913 111.404 18.4469 110.888C18.6396 110.824 18.8339 110.765 19.0297 110.712C19.2483 111.444 19.515 112.16 19.828 112.857C19.4953 113.556 19.2089 114.276 18.9706 115.012ZM22.8399 118.349C22.1784 118.916 21.5178 119.315 20.9372 119.513C20.4156 119.691 20.0017 119.692 19.7534 119.545C19.2247 119.231 19.0167 118.041 19.3368 116.451C19.3748 116.264 19.4179 116.077 19.4662 115.89C20.2141 116.06 20.9726 116.179 21.7366 116.246C22.1726 116.879 22.6496 117.484 23.1646 118.055C23.0586 118.157 22.9503 118.255 22.8399 118.349ZM23.6725 117.543C23.335 117.169 22.9986 116.756 22.6711 116.313C22.9941 116.33 23.3231 116.34 23.658 116.343C24.0018 116.347 24.3421 116.344 24.6777 116.333C24.3634 116.753 24.0279 117.157 23.6725 117.543ZM28.0384 118.597C27.9317 119.139 27.7254 119.499 27.4739 119.641C26.9385 119.943 25.8058 119.529 24.5916 118.458C24.4524 118.335 24.3133 118.204 24.1717 118.066C24.6894 117.504 25.1687 116.908 25.6064 116.282C26.3761 116.226 27.1409 116.116 27.8955 115.955C27.9283 116.095 27.9572 116.231 27.9822 116.365C28.1416 117.221 28.1571 117.994 28.0384 118.597ZM28.6911 114.996C28.5987 115.026 28.5034 115.054 28.4067 115.082C28.1791 114.346 27.9017 113.627 27.5765 112.93C27.9049 112.249 28.1872 111.547 28.4217 110.828C28.5937 110.88 28.7608 110.935 28.9215 110.992C30.477 111.549 31.4206 112.357 31.4136 112.97C31.4062 113.623 30.3676 114.46 28.6911 114.996Z"
           fill="white"
@@ -248,7 +248,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12.5"
           transform="rotate(-135.33 53.3454 181.338)"
           fill="url(#paint6_linear_19_277)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
         <circle
           cx="53.3454"
@@ -256,10 +256,10 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12"
           transform="rotate(-135.33 53.3454 181.338)"
           stroke="#2B294B"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip4_19_277)">
+      <g clipPath="url(#clip4_19_277)">
         <path
           d="M48.4246 187.015C48.4496 187.036 48.5298 187.101 48.6007 187.16C50.2509 188.522 52.4781 189.107 54.6189 188.739C55.81 188.535 56.9135 188.06 57.8641 187.34C58.1965 187.089 58.2872 187.008 58.6799 186.61C59.0726 186.213 59.1529 186.122 59.3998 185.786C61.0898 183.497 61.3279 180.405 60.0109 177.87C59.775 177.417 59.4852 176.98 59.1156 176.523C58.9715 176.346 58.2728 175.655 58.0936 175.513C57.2989 174.884 56.5168 174.462 55.6163 174.175C55.4781 174.132 55.448 174.127 55.4503 174.149C55.4524 174.164 55.325 175.075 55.1676 176.173L54.8817 178.168L54.387 180.806C54.1156 182.257 53.8965 183.447 53.9007 183.451C53.9038 183.456 54.6027 182.757 55.453 181.901C56.9413 180.402 57.0021 180.342 57.056 180.326C57.1336 180.301 57.175 180.301 57.2415 180.321C57.2914 180.338 57.3237 180.363 57.4811 180.519L57.6615 180.697L57.6796 180.775C57.6913 180.826 57.6885 180.875 57.6742 180.92L57.6497 180.989L55.5812 183.077L53.5105 185.166L53.438 185.174C53.3997 185.18 53.3364 185.173 53.298 185.162C53.2346 185.14 53.2159 185.126 53.0355 184.948C52.8227 184.737 52.7955 184.694 52.8 184.579C52.8009 184.547 53.0838 183.103 53.4293 181.368C53.7747 179.634 54.2451 177.265 54.4757 176.101L54.8957 173.987L54.8251 173.973C54.2033 173.844 53.4566 173.799 52.7789 173.851C51.3384 173.958 49.9698 174.473 48.8282 175.336C48.4958 175.587 48.405 175.668 48.0124 176.065C47.6197 176.462 47.5393 176.554 47.2925 176.889C45.6025 179.179 45.3644 182.271 46.6814 184.805C46.9131 185.253 47.2008 185.688 47.5621 186.136C47.6519 186.245 48.3298 186.938 48.4246 187.015ZM49.43 181.631C49.4046 181.556 49.4114 181.468 49.4463 181.404C49.4647 181.368 50.0357 180.786 51.3292 179.482L53.1855 177.611L53.0151 178.444L52.8458 179.279L51.4987 180.641C50.6278 181.522 50.1341 182.013 50.1041 182.031C50.0297 182.073 49.9479 182.083 49.871 182.061C49.8066 182.04 49.7889 182.027 49.6252 181.865C49.4709 181.712 49.4458 181.684 49.43 181.631Z"
           fill="white"
@@ -276,7 +276,7 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12.5"
           transform="rotate(179.613 122.401 206.182)"
           fill="url(#paint7_linear_19_277)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
         <circle
           cx="122.401"
@@ -284,10 +284,10 @@ const TechRainbow = ({ className }: { className?: string }) => {
           r="12"
           transform="rotate(179.613 122.401 206.182)"
           stroke="#2B294B"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip5_19_277)">
+      <g clipPath="url(#clip5_19_277)">
         <path
           d="M114.564 201.49C115.354 200.988 119.459 198.92 120.33 198.367C121.202 197.813 121.692 197.808 122.397 198.182C123.102 198.556 127.555 200.54 128.359 200.966C128.761 201.178 128.973 201.361 128.977 201.537L129.013 203.301C129.013 203.301 123.3 204.873 122.381 205.279C121.461 205.685 121.14 205.705 120.344 205.385C119.548 205.065 114.811 204.17 114.024 203.854L113.989 202.115C113.985 201.94 114.161 201.745 114.564 201.49Z"
           fill="#912626"
@@ -333,9 +333,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="233"
           height="233"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -368,9 +368,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -403,9 +403,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -449,9 +449,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33.0049"
           height="33.0039"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -484,9 +484,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33.001"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -519,9 +519,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -562,9 +562,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -597,9 +597,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="26.2031"
           height="26.2031"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -632,9 +632,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -667,9 +667,9 @@ const TechRainbow = ({ className }: { className?: string }) => {
           width="33"
           height="33"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -703,8 +703,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="62.8463"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_19_277"
@@ -714,8 +714,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="31.694"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_19_277"
@@ -725,8 +725,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="64.5293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_19_277"
@@ -736,8 +736,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="125.479"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_19_277"
@@ -747,8 +747,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="186.527"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_19_277"
@@ -758,8 +758,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="125.903"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_19_277"
@@ -769,8 +769,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="193.838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_19_277"
@@ -780,8 +780,8 @@ const TechRainbow = ({ className }: { className?: string }) => {
           y2="218.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#282C45" />
-          <stop offset="1" stop-color="#3C3A54" stop-opacity="0" />
+          <stop stopColor="#282C45" />
+          <stop offset="1" stopColor="#3C3A54" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_19_277">
           <rect
