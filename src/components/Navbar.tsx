@@ -9,9 +9,9 @@ const Navbar = () => {
     "Insights",
   ]);
   return (
-    <div className="z-50 text-sm w-full h-fit sticky top-0 backdrop-blur items-center flex justify-between p-4 px-6 bg-transparent text-white">
+    <div className="z-50 text-sm w-full h-fit sticky top-0 backdrop-blur items-center flex justify-between p-4 px-6 bg-transparent text-white max-sm:hidden">
       <div className="flex  gap-2">Subhash</div>
-      <ul className="flex gap-10 ">
+      <ul className="flex xl:gap-10 sm:gap-4">
         {navItems.map((item, index) => (
           <li className="" key={`${index}:item`}>
             {item}

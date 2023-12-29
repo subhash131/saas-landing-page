@@ -28,12 +28,12 @@ const Testimonial = () => {
   }, []);
   return (
     <div className="w-full h-full flex justify-center mt-10 flex-col gap-10 pb-10 items-center">
-      <div className="w-full h-[50%] text-center flex flex-col gap-4 ">
-        <h1 className="text-5xl font-light">
+      <div className="w-full h-[50%] text-center flex flex-col gap-4  ">
+        <h1 className="text-5xl font-light max-sm:text-2xl">
           Hear from our satisfied <br />{" "}
           <span className="text-[#897DD3]">customers</span>
         </h1>
-        <p className="font-extralight text-gray-400">
+        <p className="font-extralight text-gray-400 max-sm:text-sm">
           Discover what our customers have to say about us.
         </p>
       </div>

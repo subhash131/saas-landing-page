@@ -6,7 +6,7 @@ import Card3 from "./cards/Card3";
 const Hero = () => {
   return (
     <div className="w-full text-center pt-16">
-      <h1 className="text-5xl tracking-wider ">
+      <h1 className="text-5xl tracking-wider max-sm:text-2xl">
         <span className="from-[#2D0D61] bg-gradient-to-r px-4 rounded-full">
           Revolutionize
         </span>
@@ -31,7 +31,7 @@ const Hero = () => {
           Get Started
         </button>
       </div>
-      <div className="w-full h-full flex mt-12 flex-row justify-center gap-10 ">
+      <div className="w-full px-10 h-full flex mt-12 flex-row justify-center gap-10 max-sm:flex-col max-sm:items-center max-md:flex-col max-md:items-center max-lg:flex-col max-lg:items-center">
         <Card1 />
         <Card2 />
         <Card3 />

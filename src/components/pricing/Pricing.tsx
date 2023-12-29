@@ -7,18 +7,18 @@ const Pricing = () => {
   const [selectedDuration, setSelectedDuration] = useState("monthly");
   const [selectedCard, setSelectedCard] = useState(1);
   return (
-    <div className="w-full h-full flex justify-center mt-10 flex-col gap-10 pb-10">
-      <div className="w-full text-center flex flex-col gap-4">
-        <h1 className="text-5xl font-light">
+    <div className="w-full h-full flex justify-center mt-10 max-sm:-mt-12 flex-col gap-10 pb-10">
+      <div className="w-full text-center flex flex-col gap-4 max-sm:gap-2">
+        <h1 className="text-5xl font-light max-sm:text-2xl">
           Affordable pricing <span className="text-[#897DD3]">solution</span>
         </h1>
-        <p className="font-extralight text-gray-400">
+        <p className="font-extralight text-gray-400 max-sm:text-xs">
           Find cost-effective pricing plans designed to meet
           <br />
           your requirements.
         </p>
       </div>
-      <div className="flex gap-10 justify-center items-center text-xs">
+      <div className=" max-sm:-mt-4 flex gap-10 justify-center items-center text-xs max-sm:gap-2">
         <input
           type="radio"
           id="monthly"
@@ -68,7 +68,7 @@ const Pricing = () => {
           Yearly
         </label>
       </div>
-      <div className="flex gap-10 justify-center items-center">
+      <div className="flex gap-10 justify-center items-center max-sm:flex-col max-md:flex-col max-lg:flex-col">
         {selectedDuration === "monthly" && (
           <>
             {PLANDETAILS.monthly.map(

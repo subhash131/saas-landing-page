@@ -7,7 +7,7 @@ import Hero from "@/components/heroSection/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-[#0a0c11] w-full min-h-screen text-white flex flex-col gap-12 items-center">
+    <div className="bg-[#0a0c11] w-full min-h-screen text-white flex flex-col gap-12 max-sm:gap-0 items-center">
       <Navbar />
       <Hero />
       <TechStack />
