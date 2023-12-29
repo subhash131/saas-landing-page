@@ -14,7 +14,7 @@ const Hero = () => {
         <br />
         <span className="inline-block mt-8 ">
           SaaS
-          <span className="from-[#085225] to-90% bg-gradient-to-l px-4 rounded-full">
+          <span className="from-[#55506F] to-90% bg-gradient-to-l px-4 rounded-full">
             products
           </span>
         </span>
