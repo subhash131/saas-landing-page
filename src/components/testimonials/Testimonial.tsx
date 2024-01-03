@@ -1,10 +1,10 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import Card from "./Card";
 import TESTIMONIAL_DETAILS from "./constant";
 
 const Testimonial = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     const scrollers = document.querySelectorAll(".scroller");
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       addAnimation();
